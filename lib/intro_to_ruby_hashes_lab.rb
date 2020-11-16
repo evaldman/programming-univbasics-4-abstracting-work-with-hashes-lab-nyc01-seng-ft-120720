@@ -11,8 +11,8 @@ puts read_from_hash(hash, :key2)
 def update_counting_hash(hash, key)
    if hash[key]
     hash[key] += 1 
-    puts hash 
+   return hash 
   else
-    hash[key] = 1 
+    return hash[key] = 1 
   end
 end
