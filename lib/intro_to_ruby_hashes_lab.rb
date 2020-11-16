@@ -4,9 +4,10 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  some_hash = {:key => "value"}
-  some_hash
+  some_hash = {:key => "value", :key2 => "value2"}
+   
 end
+read_from_hash(some_hash, :key2)
 
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
