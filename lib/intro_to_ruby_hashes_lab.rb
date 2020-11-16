@@ -5,9 +5,9 @@ end
 
 def read_from_hash(hash, key)
   hash = {:key => "value", :key2 => "value2"}
-   
+   hash[:key2]
 end
-read_from_hash(hash, :key2)
+
 
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
