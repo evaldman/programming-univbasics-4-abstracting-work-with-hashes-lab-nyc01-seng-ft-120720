@@ -4,8 +4,8 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  new_hash = {:key => "value", :key2 => "value2"}
-   hash[:key]
+  new_hash = {:name => "Steve"}
+   hash[:name]
 end
 
 
