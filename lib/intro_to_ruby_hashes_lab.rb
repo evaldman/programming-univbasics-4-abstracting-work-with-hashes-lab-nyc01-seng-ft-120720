@@ -5,7 +5,7 @@ end
 
 def read_from_hash(hash, key)
   new_hash = {:name => "Steve"}
-   hash[:name]
+   new_hash[:name]
 end
 
 
